@@ -109,10 +109,10 @@ export const DemoBanner: React.FC<DemoBannerProps> = ({ onRefreshNeeded }) => {
           >
             <div>
               <span style={{ color: 'var(--gold)', fontWeight: 600, fontSize: 11.5, textTransform: 'uppercase' }}>
-                Super Admin:
+                Founders (Super Admin):
               </span>
               <div style={{ display: 'flex', gap: 6, marginTop: 4 }}>
-                {superAdmins.slice(0, 2).map((admin) => (
+                {superAdmins.map((admin) => (
                   <button
                     key={admin.id}
                     className={`btn btn-xs ${currentUser?.id === admin.id ? 'btn-solid' : 'btn-secondary'}`}
@@ -121,7 +121,7 @@ export const DemoBanner: React.FC<DemoBannerProps> = ({ onRefreshNeeded }) => {
                       if (onRefreshNeeded) onRefreshNeeded();
                     }}
                   >
-                    {admin.fullName} ({admin.position.split('&')[0].trim()})
+                    {admin.fullName} (Founder)
                   </button>
                 ))}
               </div>

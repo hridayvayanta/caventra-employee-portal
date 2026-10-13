@@ -93,15 +93,15 @@ The application implements an abstracted service layer (`src/services/storage.ts
 
 To test the application immediately on GitHub Pages, use the quick persona switcher in the top banner or enter any of the pre-configured accounts:
 
-| Role | Name | Department | Email | Demo Password |
-|---|---|---|---|---|
-| **Super Admin** | Hriday Vayanta | Coding / Founder | `hriday@caventra.com` | `Caventra2026!` |
-| **Super Admin** | Ved Nimbark | Sales / Founder | `ved@caventra.com` | `Caventra2026!` |
-| **Super Admin** | Sauran Mansuri | HR / Founder | `sauran@caventra.com` | `Caventra2026!` |
-| **Employee** | Alex Rivera | Coding | `alex.rivera@caventra.com` | `Caventra2026!` |
-| **Employee** | Sarah Chen | Sales | `sarah.chen@caventra.com` | `Caventra2026!` |
-| **Employee** | Maya Lin | HR | `maya.lin@caventra.com` | `Caventra2026!` |
-| **Pending Applicant** | Julian Reed | Coding (Applicant) | `julian.reed@applicant.caventra.com` | `Caventra2026!` |
+| Role | Name | Title | Department | Email | Demo Password |
+|---|---|---|---|---|---|
+| **Super Admin** | Hriday Vayanta | Founder | Founders / Org Leadership | `hriday@caventra.com` | `Caventra2026!` |
+| **Super Admin** | Ved Nimbark | Founder | Founders / Org Leadership | `ved@caventra.com` | `Caventra2026!` |
+| **Super Admin** | Sauran Mansuri | Founder | Founders / Org Leadership | `sauran@caventra.com` | `Caventra2026!` |
+| **Employee** | Alex Rivera | Senior Full-Stack Engineer | Coding | `alex.rivera@caventra.com` | `Caventra2026!` |
+| **Employee** | Sarah Chen | Solutions Sales Director | Sales | `sarah.chen@caventra.com` | `Caventra2026!` |
+| **Employee** | Maya Lin | People & Culture Partner | HR | `maya.lin@caventra.com` | `Caventra2026!` |
+| **Pending Applicant** | Julian Reed | Developer Applicant | Coding (Applicant) | `julian.reed@applicant.caventra.com` | `Caventra2026!` |
 
 ---
 

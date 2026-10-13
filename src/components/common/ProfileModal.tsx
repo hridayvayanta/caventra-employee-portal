@@ -64,7 +64,7 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
                 Employee Profile
               </h3>
               <p style={{ fontSize: 12, color: 'var(--tx-muted)', margin: 0 }}>
-                {currentUser.role === 'super_admin' ? 'Super-Admin Account' : 'Team Member Account'}
+                {currentUser.role === 'super_admin' ? 'Founder · Super-Admin Account' : 'Team Member Account'}
               </p>
             </div>
           </div>
@@ -104,7 +104,7 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
               >
                 <div style={{ fontSize: 11, color: 'var(--tx-muted)', marginBottom: 4 }}>Department</div>
                 <div style={{ fontWeight: 600, color: 'var(--tx-heading)', fontSize: 14 }}>
-                  {currentUser.department}
+                  {currentUser.role === 'super_admin' ? 'Founders (Organization Leadership)' : currentUser.department}
                 </div>
               </div>
 

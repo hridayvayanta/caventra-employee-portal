@@ -2,12 +2,12 @@ import { User, Task, TaskUpdate, ActivityEvent, Announcement, Department, TaskSt
 import { INITIAL_USERS, INITIAL_TASKS, INITIAL_ACTIVITY, INITIAL_ANNOUNCEMENTS } from './mockData';
 
 const STORAGE_KEYS = {
-  USERS: 'caventra_portal_users_v1',
-  TASKS: 'caventra_portal_tasks_v1',
-  ACTIVITY: 'caventra_portal_activity_v1',
-  ANNOUNCEMENTS: 'caventra_portal_announcements_v1',
-  CURRENT_USER: 'caventra_portal_session_v1',
-  BACKEND_CONFIG: 'caventra_portal_backend_config_v1',
+  USERS: 'caventra_portal_users_v2',
+  TASKS: 'caventra_portal_tasks_v2',
+  ACTIVITY: 'caventra_portal_activity_v2',
+  ANNOUNCEMENTS: 'caventra_portal_announcements_v2',
+  CURRENT_USER: 'caventra_portal_session_v2',
+  BACKEND_CONFIG: 'caventra_portal_backend_config_v2',
 };
 
 class PortalStorageService {
@@ -390,7 +390,7 @@ class PortalStorageService {
   }
 
   // ---- Announcements ----
-  public getAnnouncements(department?: Department): Announcement[] {
+  public getAnnouncements(department?: Department | string): Announcement[] {
     try {
       const data = localStorage.getItem(STORAGE_KEYS.ANNOUNCEMENTS);
       const all: Announcement[] = data ? JSON.parse(data) : INITIAL_ANNOUNCEMENTS;

@@ -279,7 +279,7 @@ export const EmployeeManagement: React.FC<EmployeeManagementProps> = ({ users, o
                               <span>{user.fullName}</span>
                               {user.role === 'super_admin' && (
                                 <span className="badge badge-admin" style={{ fontSize: 10, padding: '1px 6px' }}>
-                                  Super Admin
+                                  Founder
                                 </span>
                               )}
                             </div>
@@ -290,7 +290,9 @@ export const EmployeeManagement: React.FC<EmployeeManagementProps> = ({ users, o
 
                       <td style={{ padding: '14px 20px' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                          <span className="badge badge-department">{user.department}</span>
+                          <span className="badge badge-department">
+                            {user.role === 'super_admin' ? 'Founders' : user.department}
+                          </span>
                           {/* Department Reassign Dropdown for non-super admins */}
                           {user.role !== 'super_admin' && (
                             <select
@@ -325,7 +327,7 @@ export const EmployeeManagement: React.FC<EmployeeManagementProps> = ({ users, o
 
                       <td style={{ padding: '14px 20px' }}>
                         <span style={{ fontSize: 12.5, color: 'var(--tx)' }}>
-                          {user.role === 'super_admin' ? 'Organization Admin' : 'Employee'}
+                          {user.role === 'super_admin' ? 'Founder · Super Admin' : 'Employee'}
                         </span>
                       </td>
 

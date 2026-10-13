@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onRefreshNeeded }) => {
                 </span>
               </div>
               <span style={{ fontSize: 11, color: 'var(--tx-muted)' }}>
-                {currentUser.role === 'super_admin' ? 'Super-Admin Operations' : `${currentUser.department} Department`}
+                {currentUser.role === 'super_admin' ? 'Founders · Super-Admin Operations' : `${currentUser.department} Department`}
               </span>
             </div>
           </div>
@@ -194,7 +194,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onRefreshNeeded }) => {
                   {currentUser.fullName}
                 </span>
                 <span style={{ fontSize: 10.5, color: 'var(--tx-muted)' }}>
-                  {currentUser.role === 'super_admin' ? 'Super Admin' : currentUser.position}
+                  {currentUser.role === 'super_admin' ? 'Founder · Super Admin' : currentUser.position}
                 </span>
               </div>
 

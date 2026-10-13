@@ -292,13 +292,27 @@ export const LoginPage: React.FC = () => {
                   <KeyRound size={13} />
                   <span>DEMO EVALUATION QUICK-FILL</span>
                 </div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 6 }}>
                   <button
                     type="button"
                     className="btn btn-secondary btn-xs"
                     onClick={() => handleQuickFill('hriday@caventra.com')}
                   >
-                    👑 Super Admin (Hriday)
+                    👑 Hriday (Founder)
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-secondary btn-xs"
+                    onClick={() => handleQuickFill('ved@caventra.com')}
+                  >
+                    👑 Ved (Founder)
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-secondary btn-xs"
+                    onClick={() => handleQuickFill('sauran@caventra.com')}
+                  >
+                    👑 Sauran (Founder)
                   </button>
                   <button
                     type="button"

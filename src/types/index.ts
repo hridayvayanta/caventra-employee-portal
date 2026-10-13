@@ -2,6 +2,8 @@ export type Role = 'super_admin' | 'employee';
 
 export type Department = 'Sales' | 'Coding' | 'HR';
 
+export type UserDepartment = Department | 'Founders';
+
 export type UserStatus = 'pending_approval' | 'active' | 'deactivated' | 'rejected';
 
 export type TaskPriority = 'Low' | 'Medium' | 'High' | 'Urgent';
@@ -13,7 +15,7 @@ export interface User {
   email: string;
   fullName: string;
   role: Role;
-  department: Department;
+  department: UserDepartment;
   status: UserStatus;
   position: string;
   avatarUrl?: string;
@@ -81,7 +83,7 @@ export interface ActivityEvent {
   actorRole: Role;
   targetId?: string;
   targetName?: string;
-  department?: Department;
+  department?: UserDepartment;
   description: string;
   metadata?: Record<string, any>;
 }

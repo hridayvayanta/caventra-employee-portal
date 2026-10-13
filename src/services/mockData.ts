@@ -6,36 +6,36 @@ export const INITIAL_USERS: User[] = [
     email: 'hriday@caventra.com',
     fullName: 'Hriday Vayanta',
     role: 'super_admin',
-    department: 'Coding',
+    department: 'Founders',
     status: 'active',
-    position: 'Co-Founder & Technical Director',
+    position: 'Founder',
     joinedAt: '2024-01-15T09:00:00Z',
     location: 'Ahmedabad, India',
-    bio: 'Overseeing engineering architecture, systems scaling, and applied AI workflows across Caventra initiatives.'
+    bio: 'Founder of Caventra — Ideas to Impact. Directing organization-wide technical vision, software engineering, and applied AI systems.'
   },
   {
     id: 'usr-admin-2',
     email: 'ved@caventra.com',
     fullName: 'Ved Nimbark',
     role: 'super_admin',
-    department: 'Sales',
+    department: 'Founders',
     status: 'active',
-    position: 'Co-Founder & Client Strategy',
+    position: 'Founder',
     joinedAt: '2024-01-15T09:00:00Z',
     location: 'Ahmedabad, India',
-    bio: 'Leading strategic partnerships, client acquisitions, and venture product roadmaps.'
+    bio: 'Founder of Caventra — Ideas to Impact. Leading business strategy, product architecture, and commercial ventures.'
   },
   {
     id: 'usr-admin-3',
     email: 'sauran@caventra.com',
     fullName: 'Sauran Mansuri',
     role: 'super_admin',
-    department: 'HR',
+    department: 'Founders',
     status: 'active',
-    position: 'Co-Founder & Operations Lead',
+    position: 'Founder',
     joinedAt: '2024-01-15T09:00:00Z',
     location: 'Ahmedabad, India',
-    bio: 'Directing studio operations, organizational culture, and resource orchestration.'
+    bio: 'Founder of Caventra — Ideas to Impact. Leading company-wide operations, organizational culture, and studio initiatives.'
   },
   {
     id: 'usr-emp-code-1',
