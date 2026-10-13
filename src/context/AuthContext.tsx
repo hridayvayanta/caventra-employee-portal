@@ -27,6 +27,44 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const isDemoMode = !storageService.isBackendConfigured();
 
   useEffect(() => {
+    // Check for demo query parameters (e.g. ?demo=admin, ?demo=employee, ?demo=sales, ?demo=hr)
+    const urlParams = new URLSearchParams(window.location.search);
+    const demoParam = urlParams.get('demo');
+
+    if (demoParam === 'admin') {
+      const admin = storageService.getUsers().find((u) => u.role === 'super_admin');
+      if (admin) {
+        storageService.setStoredSession(admin);
+        setCurrentUser(admin);
+        setIsLoading(false);
+        return;
+      }
+    } else if (demoParam === 'employee' || demoParam === 'coding') {
+      const emp = storageService.getUsers().find((u) => u.role === 'employee' && u.department === 'Coding');
+      if (emp) {
+        storageService.setStoredSession(emp);
+        setCurrentUser(emp);
+        setIsLoading(false);
+        return;
+      }
+    } else if (demoParam === 'sales') {
+      const emp = storageService.getUsers().find((u) => u.role === 'employee' && u.department === 'Sales');
+      if (emp) {
+        storageService.setStoredSession(emp);
+        setCurrentUser(emp);
+        setIsLoading(false);
+        return;
+      }
+    } else if (demoParam === 'hr') {
+      const emp = storageService.getUsers().find((u) => u.role === 'employee' && u.department === 'HR');
+      if (emp) {
+        storageService.setStoredSession(emp);
+        setCurrentUser(emp);
+        setIsLoading(false);
+        return;
+      }
+    }
+
     // Check for existing session
     const session = storageService.getStoredSession();
     if (session) {
