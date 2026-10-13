@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14181b"/>
+      <stop offset="100%" stop-color="#0d1012"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3d3bc"/>
+      <stop offset="50%" stop-color="#c9b8a0"/>
+      <stop offset="100%" stop-color="#8f7e65"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg2)"/>
+  <!-- Resume Document Frame -->
+  <g transform="translate(420, 110)">
+    <rect width="360" height="480" rx="16" fill="rgba(22,27,31,0.95)" stroke="url(#gold)" stroke-width="2"/>
+    <!-- Header Block -->
+    <rect x="36" y="44" width="72" height="72" rx="36" fill="rgba(201,184,160,0.18)" stroke="url(#gold)" stroke-width="1.5"/>
+    <rect x="124" y="54" width="180" height="14" rx="4" fill="url(#gold)"/>
+    <rect x="124" y="78" width="120" height="10" rx="3" fill="#8f8b84"/>
+    <line x1="36" y1="140" x2="324" y2="140" stroke="rgba(201,184,160,0.2)" stroke-width="1.5"/>
+    <!-- Content Sections -->
+    <rect x="36" y="165" width="100" height="12" rx="3" fill="url(#gold)"/>
+    <rect x="36" y="190" width="288" height="8" rx="2" fill="rgba(236,230,220,0.4)"/>
+    <rect x="36" y="208" width="250" height="8" rx="2" fill="rgba(236,230,220,0.3)"/>
+    <rect x="36" y="226" width="270" height="8" rx="2" fill="rgba(236,230,220,0.3)"/>
+    <!-- Skills Pills -->
+    <rect x="36" y="260" width="80" height="12" rx="3" fill="url(#gold)"/>
+    <rect x="36" y="285" width="60" height="18" rx="9" fill="rgba(201,184,160,0.15)" stroke="url(#gold)" stroke-width="1"/>
+    <rect x="106" y="285" width="70" height="18" rx="9" fill="rgba(201,184,160,0.15)" stroke="url(#gold)" stroke-width="1"/>
+    <rect x="186" y="285" width="65" height="18" rx="9" fill="rgba(201,184,160,0.15)" stroke="url(#gold)" stroke-width="1"/>
+    <!-- Progress Bars -->
+    <rect x="36" y="335" width="110" height="12" rx="3" fill="url(#gold)"/>
+    <rect x="36" y="360" width="288" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
+    <rect x="36" y="360" width="240" height="8" rx="4" fill="url(#gold)"/>
+    <rect x="36" y="380" width="288" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
+    <rect x="36" y="380" width="190" height="8" rx="4" fill="url(#gold)"/>
+    <rect x="36" y="400" width="288" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
+    <rect x="36" y="400" width="265" height="8" rx="4" fill="url(#gold)"/>
+  </g>
+  <text x="600" y="650" text-anchor="middle" font-family="'Syne', 'Outfit', sans-serif" font-size="38" font-weight="800" letter-spacing="6" fill="url(#gold)">GENRESUME</text>
+  <text x="600" y="685" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="15" font-weight="400" letter-spacing="3" fill="#8f8b84">CAREER DEVELOPMENT &amp; SMART PLATFORM</text>
+</svg>

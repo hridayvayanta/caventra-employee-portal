@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111518"/>
+      <stop offset="100%" stop-color="#090c0e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3d3bc"/>
+      <stop offset="50%" stop-color="#c9b8a0"/>
+      <stop offset="100%" stop-color="#8f7e65"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg6)"/>
+  <!-- CRM Network Topology Diagram -->
+  <g transform="translate(600, 310)">
+    <!-- Central Node -->
+    <circle cx="0" cy="0" r="54" fill="rgba(22,27,31,0.95)" stroke="url(#gold)" stroke-width="3"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Syne', sans-serif" font-size="20" font-weight="800" fill="url(#gold)">CRM</text>
+    <!-- Connecting Lines -->
+    <line x1="0" y1="0" x2="-180" y2="-100" stroke="url(#gold)" stroke-width="1.8"/>
+    <line x1="0" y1="0" x2="180" y2="-100" stroke="url(#gold)" stroke-width="1.8"/>
+    <line x1="0" y1="0" x2="-210" y2="70" stroke="url(#gold)" stroke-width="1.8"/>
+    <line x1="0" y1="0" x2="210" y2="70" stroke="url(#gold)" stroke-width="1.8"/>
+    <line x1="0" y1="0" x2="0" y2="140" stroke="url(#gold)" stroke-width="1.8"/>
+    <!-- Outer Satellite Nodes -->
+    <circle cx="-180" cy="-100" r="32" fill="rgba(22,27,31,0.9)" stroke="url(#gold)" stroke-width="2"/>
+    <text x="-180" y="-95" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" fill="#cec9bf">LEADS</text>
+
+    <circle cx="180" cy="-100" r="32" fill="rgba(22,27,31,0.9)" stroke="url(#gold)" stroke-width="2"/>
+    <text x="180" y="-95" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" fill="#cec9bf">CLIENTS</text>
+
+    <circle cx="-210" cy="70" r="32" fill="rgba(22,27,31,0.9)" stroke="url(#gold)" stroke-width="2"/>
+    <text x="-210" y="75" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" fill="#cec9bf">TASKS</text>
+
+    <circle cx="210" cy="70" r="32" fill="rgba(22,27,31,0.9)" stroke="url(#gold)" stroke-width="2"/>
+    <text x="210" y="75" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" fill="#cec9bf">REPORTS</text>
+
+    <circle cx="0" cy="140" r="32" fill="rgba(22,27,31,0.9)" stroke="url(#gold)" stroke-width="2"/>
+    <text x="0" y="145" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" fill="#cec9bf">PIPELINE</text>
+  </g>
+  <text x="600" y="580" text-anchor="middle" font-family="'Syne', 'Outfit', sans-serif" font-size="40" font-weight="800" letter-spacing="8" fill="url(#gold)">CRM PLATFORM</text>
+  <text x="600" y="620" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="16" font-weight="400" letter-spacing="4" fill="#8f8b84">CUSTOMER RELATIONSHIP &amp; BUSINESS MANAGEMENT</text>
+</svg>

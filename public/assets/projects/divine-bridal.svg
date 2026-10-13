@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171415"/>
+      <stop offset="100%" stop-color="#0f0c0d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e8d5"/>
+      <stop offset="50%" stop-color="#c9b8a0"/>
+      <stop offset="100%" stop-color="#9a8569"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg4)"/>
+  <!-- Ornate Tiara & Lace Lattice -->
+  <g transform="translate(600, 310)">
+    <circle cx="0" cy="0" r="170" fill="none" stroke="rgba(201,184,160,0.15)" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <!-- Tiara Crown Arch -->
+    <path d="M -160,60 C -120,-60 120,-60 160,60" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M -140,75 C -100,-35 100,-35 140,75" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+    <!-- Crown Peaks -->
+    <polygon points="0,-130 18,-45 -18,-45" fill="rgba(201,184,160,0.3)" stroke="url(#gold)" stroke-width="2"/>
+    <polygon points="-70,-105 -55,-40 -85,-40" fill="rgba(201,184,160,0.2)" stroke="url(#gold)" stroke-width="1.8"/>
+    <polygon points="70,-105 85,-40 55,-40" fill="rgba(201,184,160,0.2)" stroke="url(#gold)" stroke-width="1.8"/>
+    <polygon points="-125,-70 -115,-20 -138,-20" fill="rgba(201,184,160,0.15)" stroke="url(#gold)" stroke-width="1.5"/>
+    <polygon points="125,-70 138,-20 115,-20" fill="rgba(201,184,160,0.15)" stroke="url(#gold)" stroke-width="1.5"/>
+    <!-- Gemstone Droplets -->
+    <circle cx="0" cy="-145" r="9" fill="url(#gold)"/>
+    <circle cx="-70" cy="-118" r="7" fill="url(#gold)"/>
+    <circle cx="70" cy="-118" r="7" fill="url(#gold)"/>
+    <circle cx="-125" cy="-80" r="5" fill="url(#gold)"/>
+    <circle cx="125" cy="-80" r="5" fill="url(#gold)"/>
+  </g>
+  <text x="600" y="560" text-anchor="middle" font-family="'Syne', 'Outfit', sans-serif" font-size="40" font-weight="700" letter-spacing="6" fill="url(#gold)">DIVINE BRIDAL</text>
+  <text x="600" y="605" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="16" font-weight="300" letter-spacing="4" fill="#8f8b84">BRIDAL ACCESSORIES &amp; E-COMMERCE</text>
+</svg>

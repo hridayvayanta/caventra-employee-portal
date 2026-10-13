@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151310"/>
+      <stop offset="100%" stop-color="#0d0c0a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3d3bc"/>
+      <stop offset="50%" stop-color="#c9b8a0"/>
+      <stop offset="100%" stop-color="#8f7e65"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg3)"/>
+  <!-- Hexagonal Forge Emblem -->
+  <g transform="translate(600, 310)">
+    <!-- Outer Hexagon -->
+    <polygon points="0,-180 156,-90 156,90 0,180 -156,90 -156,-90" fill="rgba(22,27,31,0.85)" stroke="url(#gold)" stroke-width="3"/>
+    <!-- Inner Hexagon -->
+    <polygon points="0,-140 121,-70 121,70 0,140 -121,70 -121,-70" fill="none" stroke="rgba(201,184,160,0.3)" stroke-width="1.5" stroke-dasharray="6 6"/>
+    <!-- Dumbbell / Forge Graphic -->
+    <rect x="-100" y="-12" width="200" height="24" rx="4" fill="url(#gold)"/>
+    <!-- Left Plate -->
+    <rect x="-130" y="-70" width="30" height="140" rx="8" fill="rgba(22,27,31,0.95)" stroke="url(#gold)" stroke-width="2.5"/>
+    <rect x="-160" y="-55" width="25" height="110" rx="6" fill="rgba(201,184,160,0.25)" stroke="url(#gold)" stroke-width="2"/>
+    <!-- Right Plate -->
+    <rect x="100" y="-70" width="30" height="140" rx="8" fill="rgba(22,27,31,0.95)" stroke="url(#gold)" stroke-width="2.5"/>
+    <rect x="135" y="-55" width="25" height="110" rx="6" fill="rgba(201,184,160,0.25)" stroke="url(#gold)" stroke-width="2"/>
+    <!-- Center Bolt -->
+    <circle cx="0" cy="0" r="28" fill="rgba(15,19,22,0.9)" stroke="url(#gold)" stroke-width="2.5"/>
+    <polygon points="0,-14 12,0 0,14 -12,0" fill="url(#gold)"/>
+  </g>
+  <text x="600" y="580" text-anchor="middle" font-family="'Syne', 'Outfit', sans-serif" font-size="44" font-weight="800" letter-spacing="8" fill="url(#gold)">IRONFORGE</text>
+  <text x="600" y="620" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="16" font-weight="400" letter-spacing="4" fill="#8f8b84">FITNESS EQUIPMENT &amp; E-COMMERCE PLATFORM</text>
+</svg>

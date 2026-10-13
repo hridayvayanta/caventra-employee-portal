@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101518"/>
+      <stop offset="100%" stop-color="#080b0d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3d3bc"/>
+      <stop offset="50%" stop-color="#c9b8a0"/>
+      <stop offset="100%" stop-color="#8f7e65"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg5)"/>
+  <!-- Developer Browser Window -->
+  <g transform="translate(360, 140)">
+    <rect width="480" height="340" rx="14" fill="rgba(22,27,31,0.95)" stroke="url(#gold)" stroke-width="2"/>
+    <!-- Top Bar -->
+    <rect width="480" height="42" rx="14" fill="rgba(15,19,22,0.95)"/>
+    <circle cx="28" cy="21" r="6" fill="#e06c75"/>
+    <circle cx="48" cy="21" r="6" fill="#e5c07b"/>
+    <circle cx="68" cy="21" r="6" fill="#98c379"/>
+    <rect x="130" y="11" width="220" height="20" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <!-- Terminal Code Body -->
+    <text x="36" y="86" font-family="'Courier New', monospace" font-size="16" fill="#c9b8a0">&lt;<tspan fill="#e3d3bc">DeveloperPortfolio</tspan>&gt;</text>
+    <text x="56" y="122" font-family="'Courier New', monospace" font-size="14" fill="#8f8b84">const <tspan fill="#e3d3bc">skills</tspan> = ["React", "Node", "Python"];</text>
+    <text x="56" y="154" font-family="'Courier New', monospace" font-size="14" fill="#8f8b84">const <tspan fill="#e3d3bc">focus</tspan>  = "Modern Digital Products";</text>
+    <text x="56" y="186" font-family="'Courier New', monospace" font-size="14" fill="#8f8b84">const <tspan fill="#e3d3bc">status</tspan> = <tspan fill="#98c379">"Ready for Impact"</tspan>;</text>
+    <text x="36" y="230" font-family="'Courier New', monospace" font-size="16" fill="#c9b8a0">&lt;/<tspan fill="#e3d3bc">DeveloperPortfolio</tspan>&gt;</text>
+    <!-- Cursor blinker -->
+    <rect x="36" y="260" width="14" height="22" fill="url(#gold)"/>
+    <text x="60" y="278" font-family="'Courier New', monospace" font-size="15" fill="#8f8b84">npm run build:success</text>
+  </g>
+  <text x="600" y="580" text-anchor="middle" font-family="'Syne', 'Outfit', sans-serif" font-size="38" font-weight="800" letter-spacing="6" fill="url(#gold)">PERSONAL PORTFOLIO</text>
+  <text x="600" y="620" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="16" font-weight="400" letter-spacing="4" fill="#8f8b84">DEVELOPER IDENTITY &amp; DIGITAL SHOWCASE</text>
+</svg>

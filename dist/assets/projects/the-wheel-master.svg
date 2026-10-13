@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgwm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161719"/>
+      <stop offset="100%" stop-color="#0c0d0e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0e2cf"/>
+      <stop offset="50%" stop-color="#c9b8a0"/>
+      <stop offset="100%" stop-color="#8c7a60"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a4046"/>
+      <stop offset="100%" stop-color="#1a1e22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bgwm)"/>
+  
+  <!-- Alloy Wheel Rim Schematic -->
+  <g transform="translate(600, 310)">
+    <!-- Outer Tire Silhouette -->
+    <circle cx="0" cy="0" r="210" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="26"/>
+    <!-- Outer Rim Ring -->
+    <circle cx="0" cy="0" r="190" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <circle cx="0" cy="0" r="176" fill="none" stroke="rgba(201,184,160,0.25)" stroke-width="1.5" stroke-dasharray="6 8"/>
+    
+    <!-- Brake Caliper Silhouette -->
+    <path d="M 120,-110 A 170 170 0 0 1 170,-10 L 140,-10 A 140 140 0 0 0 100,-90 Z" fill="rgba(201,184,160,0.35)" stroke="url(#gold)" stroke-width="1.5"/>
+    
+    <!-- Multi-Spoke Alloy Wheel Pattern (5 Twin-Spokes) -->
+    <!-- Center Hub -->
+    <circle cx="0" cy="0" r="54" fill="rgba(22,27,31,0.95)" stroke="url(#gold)" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="38" fill="rgba(201,184,160,0.15)" stroke="url(#gold)" stroke-width="1.5"/>
+    
+    <!-- Lug Nuts (5) -->
+    <circle cx="0" cy="-26" r="4.5" fill="url(#gold)"/>
+    <circle cx="24.7" cy="-8" r="4.5" fill="url(#gold)"/>
+    <circle cx="15.3" cy="21" r="4.5" fill="url(#gold)"/>
+    <circle cx="-15.3" cy="21" r="4.5" fill="url(#gold)"/>
+    <circle cx="-24.7" cy="-8" r="4.5" fill="url(#gold)"/>
+    
+    <!-- Spokes 1 to 5 (Twin Spokes) -->
+    <!-- Spoke 1 (Top) -->
+    <polygon points="-8,-48 -18,-172 18,-172 8,-48" fill="rgba(201,184,160,0.2)" stroke="url(#gold)" stroke-width="1.5"/>
+    <polygon points="-3,-52 -6,-165 6,-165 3,-52" fill="rgba(15,19,22,0.8)"/>
+    <!-- Spoke 2 (72 deg) -->
+    <g transform="rotate(72)">
+      <polygon points="-8,-48 -18,-172 18,-172 8,-48" fill="rgba(201,184,160,0.2)" stroke="url(#gold)" stroke-width="1.5"/>
+      <polygon points="-3,-52 -6,-165 6,-165 3,-52" fill="rgba(15,19,22,0.8)"/>
+    </g>
+    <!-- Spoke 3 (144 deg) -->
+    <g transform="rotate(144)">
+      <polygon points="-8,-48 -18,-172 18,-172 8,-48" fill="rgba(201,184,160,0.2)" stroke="url(#gold)" stroke-width="1.5"/>
+      <polygon points="-3,-52 -6,-165 6,-165 3,-52" fill="rgba(15,19,22,0.8)"/>
+    </g>
+    <!-- Spoke 4 (216 deg) -->
+    <g transform="rotate(216)">
+      <polygon points="-8,-48 -18,-172 18,-172 8,-48" fill="rgba(201,184,160,0.2)" stroke="url(#gold)" stroke-width="1.5"/>
+      <polygon points="-3,-52 -6,-165 6,-165 3,-52" fill="rgba(15,19,22,0.8)"/>
+    </g>
+    <!-- Spoke 5 (288 deg) -->
+    <g transform="rotate(288)">
+      <polygon points="-8,-48 -18,-172 18,-172 8,-48" fill="rgba(201,184,160,0.2)" stroke="url(#gold)" stroke-width="1.5"/>
+      <polygon points="-3,-52 -6,-165 6,-165 3,-52" fill="rgba(15,19,22,0.8)"/>
+    </g>
+    
+    <!-- Central Monogram -->
+    <text x="0" y="6" text-anchor="middle" font-family="'Syne', sans-serif" font-size="16" font-weight="800" fill="url(#gold)">WM</text>
+  </g>
+  
+  <text x="600" y="580" text-anchor="middle" font-family="'Syne', 'Outfit', sans-serif" font-size="40" font-weight="800" letter-spacing="7" fill="url(#gold)">THE WHEEL MASTER</text>
+  <text x="600" y="620" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="15" font-weight="400" letter-spacing="4" fill="#8f8b84">ALLOY WHEEL REPAIR MANAGEMENT SYSTEM · AHMEDABAD</text>
+</svg>
